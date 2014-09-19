@@ -7,12 +7,12 @@ public class ADGoogleMailerTester {
 
 	public static void main(String[] args) {
 
-		ADGoogleMailer mailer = new ADGoogleMailer();
+		ADGoogleMailer mailer = new ADGoogleMailer("desavera@gmail.com","Traccia23");
 
 		try {
 
 
-			mailer.send();
+			mailer.send("desavera@gmail.com","Isso é um teste... ","TESTANDO MAILERX");
 
 
 		} catch (MessagingException ex) {
